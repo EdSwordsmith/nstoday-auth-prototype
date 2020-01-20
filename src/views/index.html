@@ -1,0 +1,20 @@
+<h1>Login to your NS Nation</h1>
+<hr>
+<form action="/signin" method="POST">
+    <div class="form-group">
+      <label for="nation">Nation Name</label>
+      <input type="text" class="form-control" id="nation" name="nation">
+    </div>
+    <div class="form-group">
+      <label for="code">Verification Code</label>
+      <input type="password" class="form-control" id="code" name="code">
+    </div>
+    <button type="submit" class="btn btn-primary">Sign In</button>
+</form>
+<hr>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe 
+        class="embed-responsive-item" 
+        src="https://embed.nationstates.net/page=verify_login?token=nstoday-auth-proto"
+    ></iframe>
+</div>

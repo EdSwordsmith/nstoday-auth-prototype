@@ -1,0 +1,22 @@
+{
+  "name": "nstoday-auth-prototype",
+  "version": "1.0.0",
+  "description": "Authentication Prototype for NSToday using nationstates api",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Eduardo Espadeiro (EdSwordsmith)",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^8.0.5",
+    "axios": "^0.19.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-ejs": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
